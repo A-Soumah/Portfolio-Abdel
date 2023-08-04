@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Abdel</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav id="nave-items">
+    <div id="logo">Abdel Soumah</div>
+    <div id="nav-div-items">
+        <ul>
+            <li><a href="#section-2">About</a></li>
+            <li><a href="#experience-link">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+
+<section>
+    <div id="profile">
+        <div id="pic1-container">
+            <img id="pic1" src="img/abdel-pic.jpg">
+        </div>
+
+        <div class="section_text">
+            <div id="introduction">
+                <p class="section_text_p1">Hello I'm</p>
+                <h1 class="title">Abdel Soumah</h1>
+                <p class="section_text_p2">Web Developer</p>
+            </div>
+
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('img/lebenslauf-Abdel.pdf')">
+                    Download CV
+                </button>
+                <button class="btn btn-color-1" onclick="window.location.href='#contact'">
+                    Contact Info
+                </button>
+            </div>
+            <div id="Socials-container">
+                <img src="img/github.png" alt="My Linkedin Profile"
+                     class="icon" onclick="window.open('https://github.com/A-Soumah')">
+            </div>
+        </div>
+    </div>
+</section>
+<section class="section_text section-2" id="section-2">
+    <div class="überschrift">
+        <p>Get To Know more</p>
+        <h1 class="title">About Me</h1>
+    </div>
+    <div id="About-me-inhalt">
+        <div id="pic-2-container">
+            <img id="pic2" src="img/bild-abdel2.jpg">
+        </div>
+        <div id="About-me-text">
+            <div class="Experience_Educucation_Container">
+                <div id="Experience" class="border">
+                    <img src="./img/experience.png" alt="experience icon"
+                         class="icon"
+                    >
+                    <h3>Experience</h3>
+                    <p>1 year <br/> web Developement</p>
+                </div>
+                <div id="Education" class="border">
+                    <img src="img/education.png" alt="Education icon"
+                         class="icon"
+                    >
+                    <h3>Education</h3>
+                    <p>Abitur 2019 <br/> 4.Semester Angewandte Informaik</p>
+                </div>
+            </div>
+            <div class="text-container border">
+                <img src="img/heart-icon.jpg" class="icon">
+                <h3> What I Like</h3>
+                <p>Web developement</p>
+                <p>Making beats</p>
+                <p>Travelling</p>
+                <p>reading Manga</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="section_text" id="experience-link">
+    <div class="überschrift">
+        <p>Explore my</p>
+        <h1 class="title">Experience</h1>
+    </div>
+    <div id="center-Experience-div" class="border2">
+        <h2>Frontend and Backend Developement</h2>
+        <div class="column-container">
+            <div class="row" id="row-1">
+                <div class="skill-div">
+                    <img src="img/checkmark.png" class="icon ">
+                    <div>
+                        <h3>HTML</h3>
+                        <p>Experienced</p>
+                    </div>
+                </div>
+                <div class="skill-div">
+                    <img src="img/checkmark.png" class="icon ">
+                    <div>
+                        <h3>CSS</h3>
+                        <p>Intermediate-Experienced</p>
+                    </div>
+                </div>
+                <div class="skill-div">
+                    <img src="img/checkmark.png" class="icon ">
+                    <div>
+                        <h3>Javascript</h3>
+                        <p>Intermediate-Experienced</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row" id="row-2">
+                <div class="skill-div">
+                    <img src="img/checkmark.png" class="icon ">
+                    <div>
+                        <h3>Java</h3>
+                        <p>Intermediate</p>
+                    </div>
+                </div>
+                <div class="skill-div">
+                    <img src="img/checkmark.png" class="icon ">
+                    <div>
+                        <h3>MySQL</h3>
+                        <p>Basics</p>
+                    </div>
+                </div>
+                <div class="skill-div">
+                    <img src="img/checkmark.png" class="icon ">
+                    <div>
+                        <h3>React</h3>
+                        <p>Beginner</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="section_text" id="projects">
+    <div class="überschrift">
+        <p>Browse my Recent</p>
+        <h1 class="title">Projects</h1>
+    </div>
+    <div id="Project-container">
+        <div class="border3">
+            <div class="pic3-container">
+                <img src="img/TV-Search-app.PNG" class="pic3">
+            </div>
+            <h1 class="project-title">TV-Search-app</h1>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('https://github.com/A-Soumah/TV-Search-app')">
+                    GitHub
+                </button>
+                <button class="btn btn-color-2" onclick="window.open('https://nimble-marshmallow-3a0a93.netlify.app/')">
+                    Live Demo
+                </button>
+            </div>
+        </div>
+        <div class="border3">
+            <div class="pic3-container">
+                <img src="img/unit-converter-pic.PNG" class="pic3">
+            </div>
+            <h1 class="project-title">Unit-Converter</h1>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('https://github.com/A-Soumah/Unit-Converter')">
+                    GitHub
+                </button>
+                <button class="btn btn-color-2" onclick="window.open('https://cool-travesseiro-465b17.netlify.app/')">
+                    Live Demo
+                </button>
+            </div>
+        </div>
+        <div class="border3" id="project3-container">
+            <div class="pic3-container">
+                <img src="img/passwort-generator-pic.PNG" class="pic3">
+            </div>
+            <h1 class="project-title">Password-Generator</h1>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('https://github.com/A-Soumah/password-generator')">
+                    GitHub
+                </button>
+                <button class="btn btn-color-2" onclick="window.open('https://effulgent-moxie-40c1a5.netlify.app/')">
+                    Live Demo
+                </button>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="section_text" id="contact">
+    <div class="überschrift">
+        <p>Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+    </div>
+    <div id="email-div">
+        <img src="img/email.png" class="icon">
+        <a href="mailto:abdel.s.123@gmx.de">
+            abdel.s.123@gmx.de
+        </a>
+    </div>
+</section>
+<script src="index.js"></script>
+</body>
+</html>

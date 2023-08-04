@@ -1,0 +1,382 @@
+html {
+    scroll-behavior: smooth;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.6rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+
+}
+
+p {
+    color: rgb(85, 85, 85);
+}
+
+section {
+    margin-bottom: 35rem;
+
+
+}
+
+
+#nave-items {
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.8rem;
+    align-items: center;
+    height: 16rem;
+    margin-bottom: 15rem;
+}
+
+
+#nav-div-items ul {
+    display: flex;
+    list-style-type: none; /* Remove bullets */
+    margin-right: 0.5rem;
+}
+
+#nav-div-items ul li {
+    margin-right: 2.2rem;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    text-decoration-color: white;
+}
+
+a:hover {
+    color: grey;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+    text-decoration-color: rgb(181, 181, 181);
+}
+
+#logo {
+    font-size: 2.4rem;
+}
+
+#logo:hover {
+    cursor: default;
+}
+
+#profile {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#pic1-container {
+    max-width: 400px;
+
+}
+
+#pic1 {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+#pic-2-container {
+    max-width: 500px;
+
+}
+
+#pic2 {
+    width: 100%;
+    height: 600px;
+    object-fit: contain;
+    border-radius: 10%;
+}
+
+.section_text {
+    text-align: center;
+}
+
+#introduction {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.section_text_p1 {
+    font-size: 1.9rem;
+}
+
+.section_text_p2 {
+    font-size: 2.4rem;
+}
+
+.title {
+    font-size: 4rem;
+    margin-top: 1rem;
+    color: black;
+    margin-bottom: 2rem;
+}
+
+.btn-container {
+
+    display: flex;
+    justify-content: center;
+    gap: 1.6rem;
+    margin-bottom: 1rem;
+}
+
+.btn {
+    font-weight: 600;
+    transition: all 300ms ease;
+    padding: 1rem;
+    width: 10rem;
+    border-radius: 2rem;
+}
+
+.btn-color-1, .btn-color-2 {
+    border: rgb(53, 53, 53) 0.1rem solid;
+}
+
+.btn-color-1:hover,
+.btn-color-2:hover {
+    cursor: pointer;
+}
+
+.btn-color-1,
+.btn-color-2:hover {
+    background: rgb(53, 53, 53);
+    color: white;
+}
+
+.btn-color-1:hover {
+    background: rgb(0, 0, 0);
+}
+
+.btn-color-2 {
+    background: none;
+}
+
+.btn-color-2:hover {
+    border: rgb(255, 255, 255) 0.1rem solid;
+}
+
+.icon {
+    cursor: pointer;
+    height: 3.2rem;
+}
+
+
+#Socials-container {
+    text-align: center;
+}
+
+.überschrift {
+    height: 17vh;
+}
+
+
+#About-me-inhalt {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+}
+
+#About-me-text {
+    max-width: 600px;
+}
+
+.Experience_Educucation_Container {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+
+.border {
+    width: 30rem;
+    padding: 2rem;
+    border: grey 2px solid;
+    border-radius: 10%;
+}
+
+.border2 {
+    max-width: 70rem;
+    padding: 2rem;
+    border: grey 2px solid;
+    border-radius: 10%;
+
+}
+
+.border3 {
+    width: 40rem;
+    max-height: 48rem;
+    border: grey 2px solid;
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.text-container {
+    margin-top: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.column-container {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+
+
+    gap: 4rem;
+}
+
+.skill-div {
+    display: flex;
+    margin-top: 5rem;
+    text-align: left;
+}
+
+#center-Experience-div {
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+
+
+#Project-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.pic3-container {
+    height: 261.89px;
+    max-width: 350px;
+    display: flex;
+    align-items: start;
+    overflow: hidden;
+
+}
+
+
+.pic3 {
+    width: 100%;
+    max-height: 400px;
+    border-radius: 10%;
+    object-fit: contain;
+    margin-top: 4rem;
+}
+
+.project-title {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+#project-button-container {
+    margin-top: 2rem;
+}
+
+#email-div {
+    display: flex;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    width: 40rem;
+    border-radius: 35%;
+    height: 6rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+@media (max-width: 1014px) {
+
+
+    #profile {
+        flex-direction: column;
+    }
+
+    #pic1-container {
+        margin-bottom: 1.5rem;
+    }
+}
+
+@media (max-width: 885px) {
+    #nave-items {
+        flex-direction: column;
+    }
+
+
+    #About-me-inhalt {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .text-container {
+        margin-top: 1rem;
+    }
+
+    .Experience_Educucation_Container {
+        flex-direction: column;
+    }
+
+    .column-container {
+        flex-direction: column;
+    }
+
+    .border2 {
+        max-width: 30rem;
+    }
+
+    .border3 {
+        max-width: 30rem;
+    }
+
+    #email-div {
+        max-width: 35rem
+    }
+}
+
+@media (max-width: 450px) {
+
+    #logo {
+        padding: 1rem 0;
+    }
+
+    #nav-div-items ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    #nav-div-items {
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    body {
+        padding-top: 2rem;
+    }
+
+    #pic1-container {
+        max-width: 35rem;
+    }
+}
